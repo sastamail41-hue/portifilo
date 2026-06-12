@@ -4,131 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rijan Dumre | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">Rijan Dumre</div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- Loader -->
+<div class="loader">
+    <div class="loader-text">RIJAN DUMRE</div>
+</div>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm <span>Rijan Dumre</span></h1>
-            <h2>+2 Student • AI Learner • </h2>
-            <p>
-                Passionate about Artificial Intelligence, Web Development, and creating innovative digital experiences.
-            </p>
+<!-- Background Effects -->
+<div class="bg-glow glow-1"></div>
+<div class="bg-glow glow-2"></div>
 
-            <div class="buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="#contact" class="btn btn-outline">Contact Me</a>
-            </div>
+<!-- Navbar -->
+<nav>
+    <div class="logo">RIJAN</div>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <div class="hero-left">
+
+        <span class="badge">
+            Aspiring Developer & AI Enthusiast
+        </span>
+
+        <h1>
+            Hi, I'm <span>Rijan Dumre</span>
+        </h1>
+
+        <h2 id="typing"></h2>
+
+        <p>
+            Passionate about Artificial Intelligence,
+            Web Development, Discord Bot Development,
+            Minecraft Plugins, and creating innovative
+            digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn-outline">
+                Contact Me
+            </a>
         </div>
 
-        <div class="profile-card">
-            <div class="avatar">RD</div>
-        </div>
-    </section>
+    </div>
 
-    <section id="about" class="section">
-        <h2 class="title">About Me</h2>
+    <div class="hero-right">
+
+        <div class="avatar">
+            RD
+        </div>
+
+    </div>
+
+</section>
+
+<!-- About -->
+<section id="about" class="section reveal">
+
+    <h2 class="section-title">
+        About Me
+    </h2>
+
+    <div class="glass-card">
+
+        <p>
+            Hello! I'm Rijan Dumre, a +2 student,
+            AI learner, and aspiring developer.
+            I enjoy exploring new technologies,
+            creating websites, building Discord bots,
+            developing Minecraft plugins, and learning
+            modern digital skills.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section reveal">
+
+    <h2 class="section-title">
+        Skills
+    </h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">Git</div>
+        <div class="skill-card">GitHub</div>
+        <div class="skill-card">Discord Bots</div>
+        <div class="skill-card">AI Tools</div>
+        <div class="skill-card">Problem Solving</div>
+        <div class="skill-card">Communication</div>
+        <div class="skill-card">Content Creation</div>
+
+    </div>
+
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section reveal">
+
+    <h2 class="section-title">
+        Projects
+    </h2>
+
+    <div class="project-grid">
 
         <div class="glass-card">
+            <h3>Discord Bots</h3>
             <p>
-                I am <strong>Rijan Dumre</strong>, a +2 student passionate
-                about Artificial Intelligence, technology, and software
-                development. I enjoy learning new technologies, exploring web development, and building
-                digital projects. My goal is to become a skilled developer
-                and contribute to innovative technology solutions.
+                Moderation, utility and automation bots
+                built for communities.
             </p>
         </div>
-    </section>
 
-    <section id="skills" class="section">
-        <h2 class="title">Skills</h2>
-
-        <div class="grid">
-            <div class="card">🤖 AI Learning</div>
-            <div class="card">💡 Prompt Engineering</div>
-            <div class="card">🌐 HTML & CSS</div>
-            <div class="card">⚡ JavaScript</div>
-            <div class="card">📂 Git & GitHub</div>
-            <div class="card">🎨 UI/UX Design</div>
+        <div class="glass-card">
+            <h3>Mini Games</h3>
+            <p>
+                Fun game concepts and interactive projects.
+            </p>
         </div>
-    </section>
 
-    <section id="projects" class="section">
-        <h2 class="title">Projects</h2>
+        <div class="glass-card">
+            <h3>Minecraft Plugins</h3>
+            <p>
+                Custom Minecraft plugin development and
+                server features.
+            </p>
+        </div>
 
-        <div class="projects">
+        <div class="glass-card">
+            <h3>Portfolio Website</h3>
+            <p>
+                Modern responsive web portfolio project.
+            </p>
+        </div>
 
-            <div class="project-card">
-                <h3>Discord Bot Projects</h3>
-                <p>
-                    Advanced Discord bots with moderation,
-                    economy, AI features, and ticket systems.
-                </p>
-            </div>
+        <div class="glass-card">
+            <h3>AI Learning Journey</h3>
+            <p>
+                Exploring AI tools, prompts,
+                and modern technologies.
+            </p>
+        </div>
 
-            <div class="project-card">
-                <h3>Games</h3>
-                <p>
-                    Simples games
-                </p>
-            </div>
+        <div class="glass-card">
+            <h3>Future Projects</h3>
+            <p>
+                Currently learning and building
+                new exciting ideas.
+            </p>
+        </div>
 
-            <div class="project-card">
-                <h3>AI Learning Journey</h3>
-                <p>
-                    Exploring AI tools, prompt engineering,
-                    and automation technologies.
-                </p>
-            </div>
-          <div class="project-card">
-             <h3>🔧 Plugin Development</h3>
-               <p>
-        Specialized in Minecraft plugin development using Java and the
-        Paper/Spigot API. Building custom server systems, gameplay mechanics,
-        quality-of-life features, and scalable solutions for Minecraft
-      communities and networks.
-       </p>
-     </div>
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>
-                    Modern portfolio showcasing my skills,
-                    projects, and achievements.
-                </p>
-            </div>
+    </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section reveal">
+
+    <h2 class="section-title">
+        Contact Me
+    </h2>
+
+    <div class="glass-card contact-card">
+
+        <h3>Email</h3>
+
+        <a href="mailto:dumrerijan1@gmail.com">
+            dumrerijan1@gmail.com
+        </a>
+
+        <div class="social-links">
+
+            <a href="https://www.instagram.com/rijan.dumre/" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://www.facebook.com/rijan.dumre" target="_blank">
+                Facebook
+            </a>
+
+            <a href="#">
+                GitHub
+            </a>
+
+            <a href="#">
+                Discord
+            </a>
 
         </div>
-    </section>
 
-    <section id="contact" class="section">
-        <h2 class="title">Contact Me</h2>
+    </div>
 
-        <div class="glass-card contact">
-            <h3>Email</h3>
-            <p>dumrerijan1@gmail.com</p>
+</section>
 
-            <div class="socials">
-                <a href="#">GitHub</a>
-                <a href="#">Discord</a>
-                <a href="#">YouTube</a>
-            </div>
-        </div>
-    </section>
+<!-- Footer -->
+<footer>
+    © 2026 Rijan Dumre | Made with ❤️
+</footer>
 
-    <footer>
-        <p>© 2026 Rijan Dumre | Made with ❤️</p>
-    </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
